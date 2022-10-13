@@ -17,7 +17,16 @@ form.addEventListener('submit', e=> {
 
     //console.log(score);
 
-    //show score
+    //show sresult on page
+    scrollTo(0,0);
     result.querySelector('span').textContent = `${score}%`;
     result.classList.remove('d-none');
 });
+
+
+//window object (global object)
+
+setTimeout(() =>{
+    alert('hello, ninjas');
+}, 3000);
+
